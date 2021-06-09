@@ -1,21 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./brev.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>This react app is ready to run!</p>
+        <p>Hot reload for a deployed app.</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://brev.dev"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          our site
         </a>
       </header>
     </div>
